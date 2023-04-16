@@ -1,0 +1,194 @@
+body {
+    background: #dddddd;
+    margin: 0;
+    border: 0;
+}
+
+.title {
+    background: #e96661;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.headerIntro {
+    font-size: 1em;
+    margin: 0;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.headerName {
+    font-weight: bolder;
+    font-size: 3.5em;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.headerImg {
+    border-radius: 3%;
+    max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    margin-top: 175px;
+}
+
+.headerImageCaption {
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.topQuote {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstQuote, .secondQuote {
+    /* display: flex;
+    justify-content: center; */
+    font-weight: bold;
+    text-align: justify;
+    font-size: 1.5em;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    color: #333333;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.quotesAndSummary p, .timelineAll p, .externalLinks{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+strong {
+    margin-right: 15px;
+    color: #333333;
+}
+
+.timelineAll h2 {
+    color: #e96661;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.timelineImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.timelineImg {
+    height: 500px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 7%;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.video {
+    text-align: center;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.externalLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.externalLinks h3 {
+    color: #e96661;
+    margin-bottom: 0;
+}
+
+.externalLinks p {
+    margin-top: 0;
+}
+
+.divlinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    color: #e96661;
+    margin-bottom: 10px;
+    transition: all .3s linear;
+}
+
+.links:hover {
+    background-color: #e96661;
+    color: white;
+    text-decoration: none;
+}
+
+ul  {
+    list-style-type: none;
+}
+
+.books ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure .bookImage {
+    height: 300px;
+    width: 200px;
+    border-radius: 7%;
+}
+
+.readMore {
+    font-weight: bold;
+    color: #e96661;
+    display: flex;
+    justify-content: center;
+}
+
+.readMore:hover {
+    color: white;
+    background-color: #e96661;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    margin: 0;
+    padding: .1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.created {
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.challenge {
+    margin-top: .5em;
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+
